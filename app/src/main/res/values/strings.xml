@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">Car Service</string>
+
+    <!--VARIABLES DEL LOGIN-->
+    <string name="title_login">Inicio de Sesión</string>
+    <string name="title_usuario">Usuario:</string>
+    <string name="title_pwd">Contraseña:</string>
+    <string name="title_btnIngresar">Ingresar</string>
+    <string name="title_btnSalir">Salir</string>
+    <!--FIN DE VARIABLES DEL LOGIN-->
+
+    <!--VARIABLES DEL MENU-->
+    <string name="menu_home">Principal</string>
+    <string name="menu_auto">Auto</string>
+    <string name="menu_cliente">Cliente</string>
+    <string name="ID_cliente">ID Cliente</string>
+    <string name="menu_diagnostico_falla">Diagnostico Falla</string>
+    <string name="menu_mantenimiento">Mantenimiento</string>
+    <string name="menu_factura">Facturacion</string>
+    <string name="menu_cargo_empleado">Cargo Empleado</string>
+    <string name="menu_empleado">Empleado</string>
+    <string name="menu_tipo_auto">Tipo Auto</string>
+    <string name="menu_categoria_falla">Categoria de Falla</string>
+    <string name="desc_categoria_falla">Descripcion categoria falla</string>
+    <string name="menu_tipo_mto">Tipo Mantenimiento</string>
+    <string name="menu_modelo_auto">Modelo Auto</string>
+    <string name="menu_marca_auto">Marca Auto</string>
+    <string name="menu_falla">Falla</string>
+    <string name="ID_falla">ID Falla</string>
+    <string name="desc_falla">Descripcion de Falla</string>
+    <string name="menu_dianostigo_mto">Diagnostico</string>
+    <string name="menu_usuario">Usuario</string>
+    <string name="menu_sucursal">Sucursal</string>
+    <string name="menu_principal">MENU PRINCIPAL</string>
+    <!--FIN DE VARIABLES DE MENU-->
+
+    <!--INICIO DE VARIABLES DE BOTONES-->
+    <string name="boton_guardar">Guardar</string>
+    <string name="boton_eliminar">Eliminar</string>
+    <string name="boton_buscar">Buscar</string>
+    <string name="boton_modificar">Modificar</string>
+    <string name="boton_cancelar">Cancelar</string>
+    <!--FIN DE VARIABLES DE BOTONES-->
+
+    <!--INICIO -->
+    <string name="id">Código:</string>
+    <string name="nombre_cargo">Nombre Cargo:</string>
+    <string name="nombre">Nombre:</string>
+    <string name="apellidos">Apellidos:</string>
+    <string name="cargo">Cargo Empleado:</string>
+    <string name="direccion">Dirección:</string>
+    <string name="telefono">Telefono:</string>
+    <string name="dui">DUI:</string>
+    <string name="fecha_registro">Fecha Registro:</string>
+    <string name="tipo_auto">Tipo Auto:</string>
+    <string name="nombre_sucursal">Nombre Sucursal:</string>
+    <string name="direccion_sucursal">Dirección de Sucursal:</string>
+    <string name="nombre_tipo_mto">Nombre Tipo Mto.:</string>
+    <string name="nombre_categoria_falla">Nombre Categoria Falla:</string>
+    <string name="descripcion">Descripción:</string>
+    <string name="nombre_modelo_auto">Modelo Auto:</string>
+    <string name="nombre_marca_auto">Marca Auto:</string>
+    <string name="nombre_marca">Marca Auto:</string>
+    <string name="id_auto">ID Auto:</string>
+    <string name="id_empleado">ID Empleado:</string>
+    <string name="año">Año:</string>
+    <string name="placa">Placa:</string>
+    <string name="fecha_mto">Fecha Mto.:</string>
+    <string name="proximo_mto">Próximo Mto.:</string>
+    <string name="estado">Estado:</string>
+    <string name="monto">Monto:</string>
+    <string name="fecha_factura">Fecha Factura:</string>
+    <string name="efectivo">Efectivo:</string>
+    <string name="cambio">Cambio:</string>
+    <string name="title_activity_usuario">Usuario</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="guardarU">GUARDAR USUARIO</string>
+    <string name="modificarU">MODIFICAR USUARIO</string>
+    <string name="modificarFAC">MODIFICAR FACTURACION</string>
+    <string name="consultarU">USUARIOS REGISTRADOS</string>
+    <string name="guardarCE">GUARDAR CARGO EMPLEADO</string>
+    <string name="guardarCL">GUARDAR CLIENTE</string>
+    <string name="guardarMTTO">GUARDAR MANTENIMIENTO</string>
+    <string name="guardarAU">GUARDAR AUTO</string>
+    <string name="guardarfalla">GUARDAR FALLA</string>
+    <string name="guardarFAC">GUARDAR FACTURACION</string>
+    <string name="modificarCE">MODIFICAR CARGO EMPLEADO</string>
+    <string name="consultarCE">CARGOS DE EMPLEADO REGISTRADOS</string>
+    <string name="guardarS">GUARDAR SUCURSAL</string>
+    <string name="modificarS">MODIFICAR SUCURSAL</string>
+    <string name="modificarCL">MODIFICAR CLIENTE</string>
+    <string name="modificarAU">MODIFICAR AUTO</string>
+    <string name="modificarfalla">MODIFICAR FALLA</string>
+    <string name="modificarMTO">MODIFICAR MANTENIMIENTO</string>
+    <string name="consultarS">SUCURSALES REGISTRADOS</string>
+    <string name="consultarA">CONSULTAR AUTO</string>
+    <string name="consultarCl">CONSULTAR CLIENTE</string>
+    <string name="consultarUS">CONSULTAR USUARIO</string>
+    <string name="consultarFalla">CONSULTAR FALLA</string>
+    <string name="consultarMTO">CONSULTAR MANTENIMIENTO</string>
+    <string name="consultarFAC">CONSULTAR FACTURACION</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

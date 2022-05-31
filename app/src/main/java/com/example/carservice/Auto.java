@@ -41,5 +41,5 @@ public class Auto extends AppCompatActivity {
                 tabLayout.getTabAt(position).select();
             }
         });
-    }
+    }   //test
 }

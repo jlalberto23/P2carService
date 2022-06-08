@@ -46,6 +46,7 @@
     <string name="id">Código:</string>
     <string name="nombre_cargo">Nombre Cargo:</string>
     <string name="nombre">Nombre:</string>
+    <string name="buscar_usuario">Digite el usuario:</string>
     <string name="apellidos">Apellidos:</string>
     <string name="cargo">Cargo Empleado:</string>
     <string name="direccion">Dirección:</string>

@@ -14,6 +14,11 @@
     <string name="menu_auto">Auto</string>
     <string name="menu_cliente">Cliente</string>
     <string name="ID_cliente">ID Cliente</string>
+    <string name="ID_diagnostico">ID Diagnostico</string>
+    <string name="ID_tipo_mto">ID tipo Mantto</string>
+    <string name="ID_catFalla">ID de categoria de falla:</string>
+    <string name="buscar_ID_cliente">Digite el ID del cliente</string>
+    <string name="buscar_ID_fac">Digite el ID de la factura</string>
     <string name="menu_diagnostico_falla">Diagnostico Falla</string>
     <string name="menu_mantenimiento">Mantenimiento</string>
     <string name="menu_factura">Facturacion</string>
@@ -28,6 +33,7 @@
     <string name="menu_falla">Falla</string>
     <string name="ID_falla">ID Falla</string>
     <string name="desc_falla">Descripcion de Falla</string>
+    <string name="desc_mto">Descripcion del mantenimiento</string>
     <string name="menu_dianostigo_mto">Diagnostico</string>
     <string name="menu_usuario">Usuario</string>
     <string name="menu_sucursal">Sucursal</string>
@@ -63,11 +69,16 @@
     <string name="nombre_marca_auto">Marca Auto:</string>
     <string name="nombre_marca">Marca Auto:</string>
     <string name="id_auto">ID Auto:</string>
+    <string name="id_sucursal">ID Sucursal:</string>
+    <string name="buscar_id_auto">Digite el ID del auto:</string>
+    <string name="buscar_id_mto">Digite el ID del mantenimiento:</string>
+    <string name="buscar_id_falla">Digite el ID de la falla:</string>
     <string name="id_empleado">ID Empleado:</string>
     <string name="año">Año:</string>
     <string name="placa">Placa:</string>
     <string name="fecha_mto">Fecha Mto.:</string>
-    <string name="proximo_mto">Próximo Mto.:</string>
+    <string name="proximo_mto">Próximo mantto:</string>
+    <string name="estado_mto">Estado del mantto:</string>
     <string name="estado">Estado:</string>
     <string name="monto">Monto:</string>
     <string name="fecha_factura">Fecha Factura:</string>

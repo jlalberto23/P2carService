@@ -1,167 +1,195 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center|top|left"
     tools:context=".fragmets.ModificarFacturacion">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:id="@+id/lblTitulo"
-        android:layout_width="369dp"
-        android:layout_height="50dp"
+    <LinearLayout
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="91dp"
+        android:layout_marginEnd="201dp"
+        android:layout_marginBottom="85dp"
+        android:orientation="horizontal">
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="374dp"
+        android:layout_height="72dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="24dp"
-        android:layout_marginLeft="90dp"
-        android:layout_marginTop="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="28dp"
         android:layout_marginEnd="17dp"
-        android:text="@string/modificarFAC"
-        android:textSize="25sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_marginBottom="631dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView187"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/modificarFAC"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@android:color/secondary_text_light"
+            app:autoSizeTextType="uniform" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="127dp"
+        android:layout_height="362dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="222dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView188"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:layout_gravity="center"
+            android:gravity="center|left"
+            android:text="@string/buscar_id_mto" />
+
+        <TextView
+            android:id="@+id/textView189"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:layout_gravity="center"
+            android:gravity="center|left"
+            android:text="@string/monto" />
+
+        <TextView
+            android:id="@+id/textView190"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:layout_gravity="center"
+            android:gravity="center|left"
+            android:text="@string/fecha_factura" />
+
+        <TextView
+            android:id="@+id/textView191"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:layout_gravity="center"
+            android:gravity="center|left"
+            android:text="@string/efectivo" />
+        <TextView
+            android:id="@+id/textView192"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:layout_gravity="center"
+            android:gravity="center|left"
+            android:text="@string/cambio" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="91dp"
+        android:layout_marginEnd="201dp"
+        android:layout_marginBottom="85dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button39"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/rojo"
+            android:text="@string/boton_modificar"
+            app:iconTint="@color/rojo" />
+
+
+    </LinearLayout>
 
     <Button
-        android:id="@+id/btnCancelar"
-        android:layout_width="wrap_content"
+        android:id="@+id/button40"
+        android:layout_width="160dp"
         android:layout_height="wrap_content"
+
+        android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginLeft="50dp"
-        android:layout_marginEnd="68dp"
-        android:layout_marginBottom="84dp"
-        android:layout_toRightOf="@+id/btnGuardar"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="91dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="85dp"
         android:backgroundTint="@color/rojo"
         android:text="@string/boton_cancelar"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:iconTint="@color/rojo" />
 
-    <Button
-        android:id="@+id/btnGuardar"
+    <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="362dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginLeft="60sp"
-        android:layout_marginRight="50sp"
-        android:layout_marginBottom="84dp"
-        android:backgroundTint="@color/rojo"
-        android:text="@string/boton_guardar"
-        app:layout_constraintEnd_toStartOf="@+id/btnCancelar"
-        app:layout_constraintHorizontal_bias="0.564"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="507dp" />
-
-    <TextView
-        android:id="@+id/textView42"
-        android:layout_width="140dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/lblTitulo"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="116dp"
-        android:layout_marginEnd="237dp"
-        android:text="ID Mantenimiento" />
-
-    <TextView
-        android:id="@+id/textView44"
-        android:layout_width="98dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView42"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="41dp"
-        android:layout_marginEnd="276dp"
-        android:text="Monto" />
-
-    <TextView
-        android:id="@+id/textView46"
-        android:layout_width="146dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView44"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="46dp"
-        android:layout_marginEnd="232dp"
-        android:text="Fecha de facturacion" />
-
-    <TextView
-        android:id="@+id/textView48"
-        android:layout_width="67dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView46"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="51dp"
-        android:layout_marginEnd="304dp"
-        android:text="Efectivo" />
-
-    <TextView
-        android:id="@+id/textView50"
-        android:layout_width="63dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView48"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="54dp"
-        android:layout_marginEnd="308dp"
-        android:text="Cambio" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName25"
-        android:layout_width="181dp"
-        android:layout_height="30dp"
-        android:layout_below="@+id/lblTitulo"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="107dp"
+        android:layout_marginStart="187dp"
+        android:layout_marginTop="147dp"
         android:layout_marginEnd="22dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="" />
 
-    <EditText
-        android:id="@+id/editTextTextPersonName26"
-        android:layout_width="181dp"
-        android:layout_height="30dp"
-        android:layout_below="@+id/lblTitulo"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="172dp"
-        android:layout_marginEnd="20dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="" />
+        android:layout_marginBottom="222dp"
+        android:orientation="vertical">
 
-    <EditText
-        android:id="@+id/editTextTextPersonName27"
-        android:layout_width="181dp"
-        android:layout_height="30dp"
-        android:layout_below="@+id/lblTitulo"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="237dp"
-        android:layout_marginEnd="14dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="" />
+        <EditText
+            android:id="@+id/editTextTextPersonName49"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:ems="10"
+            android:gravity="center|top|left"
+            android:inputType="textPersonName" />
 
-    <EditText
-        android:id="@+id/editTextTextPersonName28"
-        android:layout_width="181dp"
-        android:layout_height="30dp"
-        android:layout_below="@+id/lblTitulo"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="305dp"
-        android:layout_marginEnd="12dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="" />
+        <EditText
+            android:id="@+id/editTextTextPersonName50"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:ems="10"
+            android:gravity="center|top|left"
+            android:inputType="textPersonName" />
+        <EditText
+            android:id="@+id/editTextDate14"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:ems="10"
+            android:gravity="center|top|left"
+            android:inputType="date" />
+        <EditText
+            android:id="@+id/editTextTextPersonName52"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:ems="10"
+            android:gravity="center|top|left"
+            android:inputType="textPersonName" />
 
-    <EditText
-        android:id="@+id/editTextTextPersonName29"
-        android:layout_width="181dp"
-        android:layout_height="30dp"
-        android:layout_below="@+id/lblTitulo"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="382dp"
-        android:layout_marginEnd="13dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="" />
+        <EditText
+            android:id="@+id/editTextTextPersonName53"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:ems="10"
+            android:gravity="center|top|left"
+            android:inputType="textPersonName" />
+
+
+    </LinearLayout>
 
 </RelativeLayout>

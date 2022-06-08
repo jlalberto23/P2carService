@@ -38,6 +38,9 @@
     <string name="menu_usuario">Usuario</string>
     <string name="menu_sucursal">Sucursal</string>
     <string name="menu_principal">MENU PRINCIPAL</string>
+    <string name="digitar_Usuario">Digite el usuario</string>
+    <string name="digitar_nombre">Digite su nombre</string>
+    <string name="digitar_apellido">Digite apellido</string>
     <!--FIN DE VARIABLES DE MENU-->
 
     <!--INICIO DE VARIABLES DE BOTONES-->
@@ -53,6 +56,7 @@
     <string name="nombre_cargo">Nombre Cargo:</string>
     <string name="nombre">Nombre:</string>
     <string name="buscar_usuario">Digite el usuario:</string>
+    <string name="guardar_cliente">Digite codigo del cliente:</string>
     <string name="apellidos">Apellidos:</string>
     <string name="cargo">Cargo Empleado:</string>
     <string name="direccion">Dirección:</string>
@@ -73,16 +77,17 @@
     <string name="buscar_id_auto">Digite el ID del auto:</string>
     <string name="buscar_id_mto">Digite el ID del mantenimiento:</string>
     <string name="buscar_id_falla">Digite el ID de la falla:</string>
+    <string name="ingresar_pwd">Digite su contraseña:</string>
     <string name="id_empleado">ID Empleado:</string>
     <string name="año">Año:</string>
     <string name="placa">Placa:</string>
-    <string name="fecha_mto">Fecha Mto.:</string>
+    <string name="fecha_mto">Fecha del mantto:</string>
     <string name="proximo_mto">Próximo mantto:</string>
     <string name="estado_mto">Estado del mantto:</string>
     <string name="estado">Estado:</string>
-    <string name="monto">Monto:</string>
-    <string name="fecha_factura">Fecha Factura:</string>
-    <string name="efectivo">Efectivo:</string>
+    <string name="monto">Monto a cobrar:</string>
+    <string name="fecha_factura">Fecha de facturación:</string>
+    <string name="efectivo">Efectivo recibido:</string>
     <string name="cambio">Cambio:</string>
     <string name="title_activity_usuario">Usuario</string>
     <string name="tab_text_1">Tab 1</string>

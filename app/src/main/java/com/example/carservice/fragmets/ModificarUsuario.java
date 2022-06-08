@@ -25,8 +25,8 @@ public class ModificarUsuario extends Fragment {
         View v = inflater.inflate(R.layout.fragment_modificar_usuario, container, false);
         modificar = (Button)v.findViewById(R.id.btnModificarU);
         cancelar = (Button)v.findViewById(R.id.btnCancelarU1);
-        user = (EditText)v.findViewById(R.id.txtUsuario1);
-        pwd = (EditText)v.findViewById(R.id.txtContra1);
+        user = (EditText)v.findViewById(R.id.txtUsuario2);
+        pwd = (EditText)v.findViewById(R.id.txtContra2);
         modificar.setOnClickListener(onclick);
         cancelar.setOnClickListener(onclick);
         thiscontext = this.getActivity();

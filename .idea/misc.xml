@@ -13,6 +13,18 @@
         <entry key="..\:/Users/Jose Alberto/AndroidStudioProjects/P2carService/app/src/main/res/layout/fragment_consultar_falla.xml" value="0.29347826086956524" />
         <entry key="..\:/Users/Jose Alberto/AndroidStudioProjects/P2carService/app/src/main/res/layout/fragment_consultar_mto.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Jose Alberto/AndroidStudioProjects/P2carService/app/src/main/res/layout/fragment_consultar_usuario.xml" value="0.25" />
+        <entry key="..\:/Users/Jose Alberto/AndroidStudioProjects/P2carService/app/src/main/res/layout/fragment_guardar_auto.xml" value="0.29347826086956524" />
+        <entry key="..\:/Users/Jose Alberto/AndroidStudioProjects/P2carService/app/src/main/res/layout/fragment_guardar_cliente.xml" value="0.29347826086956524" />
+        <entry key="..\:/Users/Jose Alberto/AndroidStudioProjects/P2carService/app/src/main/res/layout/fragment_guardar_facturacion.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Jose Alberto/AndroidStudioProjects/P2carService/app/src/main/res/layout/fragment_guardar_falla.xml" value="0.29347826086956524" />
+        <entry key="..\:/Users/Jose Alberto/AndroidStudioProjects/P2carService/app/src/main/res/layout/fragment_guardar_mto.xml" value="0.29347826086956524" />
+        <entry key="..\:/Users/Jose Alberto/AndroidStudioProjects/P2carService/app/src/main/res/layout/fragment_guardar_usuario.xml" value="0.29347826086956524" />
+        <entry key="..\:/Users/Jose Alberto/AndroidStudioProjects/P2carService/app/src/main/res/layout/fragment_modificar_auto.xml" value="0.29347826086956524" />
+        <entry key="..\:/Users/Jose Alberto/AndroidStudioProjects/P2carService/app/src/main/res/layout/fragment_modificar_cliente.xml" value="0.29347826086956524" />
+        <entry key="..\:/Users/Jose Alberto/AndroidStudioProjects/P2carService/app/src/main/res/layout/fragment_modificar_facturacion.xml" value="0.25" />
+        <entry key="..\:/Users/Jose Alberto/AndroidStudioProjects/P2carService/app/src/main/res/layout/fragment_modificar_falla.xml" value="0.29347826086956524" />
+        <entry key="..\:/Users/Jose Alberto/AndroidStudioProjects/P2carService/app/src/main/res/layout/fragment_modificar_mto.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Jose Alberto/AndroidStudioProjects/P2carService/app/src/main/res/layout/fragment_modificar_usuario.xml" value="0.29347826086956524" />
       </map>
     </option>
   </component>
